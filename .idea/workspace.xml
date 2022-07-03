@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -49,6 +52,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
@@ -66,24 +70,16 @@
   </component>
   <component name="RunManager" selected="Application.FeedbackClicker">
     <configuration name="FeedbackClicker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="FeedbackClicker" />
       <module name="hh-feedback-selenium" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormCreationQueryTest.searchElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="movie-finder-selenium-webdriver" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FormCreationQueryTest" />
-      <option name="METHOD_NAME" value="searchElements" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="JUnit" factoryName="JUnit">
-      <module name="movie-finder-selenium-webdriver" />
+      <module name="hh-feedback-selenium" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,12 +93,10 @@
     <list>
       <item itemvalue="Application.FeedbackClicker" />
       <item itemvalue="JUnit.test" />
-      <item itemvalue="JUnit.FormCreationQueryTest.searchElements" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FeedbackClicker" />
-        <item itemvalue="JUnit.FormCreationQueryTest.searchElements" />
       </list>
     </recent_temporary>
   </component>
